@@ -67,6 +67,7 @@ public class GUI_SuaVanPhongPham {
 	 */
 	private void initialize() {
 		frame = new JFrame();
+		frame.setResizable(false);
 		frame.setBackground(Color.WHITE);
 		frame.getContentPane().setBackground(Color.WHITE);
 		frame.setBounds(100, 100, 899, 601);
@@ -74,7 +75,7 @@ public class GUI_SuaVanPhongPham {
 		frame.getContentPane().setLayout(new BorderLayout(0, 0));
 		
 
-		JLabel lblThemSP = new JLabel("THÊM VĂN PHÒNG PHẨM");
+		JLabel lblThemSP = new JLabel("SỬA THÔNG TIN VĂN PHÒNG PHẨM");
 		lblThemSP.setForeground(new Color(0, 0, 128));
 		lblThemSP.setHorizontalAlignment(SwingConstants.CENTER);
 		lblThemSP.setFont(new Font("Cambria Math", Font.BOLD, 37));

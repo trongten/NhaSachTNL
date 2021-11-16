@@ -67,6 +67,7 @@ public class GUI_SuaSach {
 	 */
 	private void initialize() {
 		frmThmSch = new JFrame();
+		frmThmSch.setResizable(false);
 		frmThmSch.setTitle("Thêm Sách");
 		frmThmSch.setBackground(Color.WHITE);
 		frmThmSch.getContentPane().setBackground(Color.WHITE);
